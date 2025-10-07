@@ -1,0 +1,19 @@
+{
+  "name": "motos/1759780234652.jpg",
+  "bucket": "sample-firebase-ai-app-6af00.firebasestorage.app",
+  "metageneration": 1,
+  "generation": 1759780235197,
+  "contentType": "application/octet-stream",
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "downloadTokens": [
+    "64e9e723-6e07-4271-abfd-2a76c8bf61a9"
+  ],
+  "etag": "OzmF0VR/KUUq1o4u851mcvyTqYc",
+  "customMetadata": {},
+  "timeCreated": "2025-10-06T19:50:35.220Z",
+  "updated": "2025-10-06T19:50:35.220Z",
+  "size": 50197,
+  "md5Hash": "SiWq43UrwbmcKfTStPI1LQ==",
+  "crc32c": "1340323980"
+}

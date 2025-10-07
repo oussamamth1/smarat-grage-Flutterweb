@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325359761218",
+    "project_id": "sample-firebase-ai-app-6af00",
+    "storage_bucket": "sample-firebase-ai-app-6af00.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325359761218:android:af90cc42ccb655a4e27adb",
+        "android_client_info": {
+          "package_name": "com.example.smartgarage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiHKQ2_OI9wBZ0UwiO_F-ar_Ewr5YxB3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

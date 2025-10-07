@@ -1,0 +1,19 @@
+{
+  "name": "parts/1759776597144.jpg",
+  "bucket": "sample-firebase-ai-app-6af00.firebasestorage.app",
+  "metageneration": 1,
+  "generation": 1759776597923,
+  "contentType": "application/octet-stream",
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "downloadTokens": [
+    "01ee7bae-efd9-4260-84b2-35562873606c"
+  ],
+  "etag": "l2jtzvDwMboHy4RL6+Xzhr4gK0E",
+  "customMetadata": {},
+  "timeCreated": "2025-10-06T18:49:57.923Z",
+  "updated": "2025-10-06T18:49:57.923Z",
+  "size": 43805,
+  "md5Hash": "jJ5FwZDVkEUEe+Et2EfJag==",
+  "crc32c": "2402399208"
+}

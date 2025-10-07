@@ -1,0 +1,71 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sample-firebase-ai-app-6af00",
+          "appId": "1:325359761218:android:af90cc42ccb655a4e27adb",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sample-firebase-ai-app-6af00",
+          "configurations": {
+            "android": "1:325359761218:android:af90cc42ccb655a4e27adb",
+            "ios": "1:325359761218:ios:b8118d79145406e8e27adb",
+            "macos": "1:325359761218:ios:b8118d79145406e8e27adb",
+            "web": "1:325359761218:web:da4a14f58429afd6e27adb",
+            "windows": "1:325359761218:web:46c04b6e2bf5fd38e27adb"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": {
+    "predeploy": "npm --prefix \"$RESOURCE_DIR\" run build",
+    "source": "functions"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099,
+      "dataDir": "./emulator-data/auth",
+      "host": "localhost"
+    },
+    "functions": { "port": 5001 },
+    "firestore": {
+      "port": 8080,
+      "host": "localhost",
+      "rules": "firestore.rules",
+      "indexes": "firestore.indexes.json",
+      "dataDir": "./emulator-data/firestore"
+    },
+    "database": {
+      "port": 9000,
+      "dataDir": "./emulator-data/database"
+    },
+    "hosting": { "port": 5000 },
+    "storage": {
+      "port": 9199,
+      "dataDir": "./emulator-data/storage"
+    },
+    "ui": { "enabled": true, "port": 4000 }
+  }
+}
