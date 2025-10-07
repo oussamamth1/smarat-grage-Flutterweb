@@ -288,7 +288,7 @@ class _ClientCartScreenState extends State<ClientCartScreen> {
       final order = Order(
         id: orderRef.id,
         orderNumber: orderNumber,
-        userId: 'current_user_id', // Replace with actual user ID from auth
+        userId: widget.client.id, // Replace with actual user ID from auth
         customerName: widget.client.name,
         customerPhone: widget.client.email, // Or add phone field to Client
         status: OrderStatus.pending,
@@ -322,7 +322,7 @@ class _ClientCartScreenState extends State<ClientCartScreen> {
         batch.set(orderItemRef, orderItem.toMap());
 
         // Update part stock
-        final partRef = firestore.collection('parts').doc(part.id);
+        final partRef = firestore.collection('bike_parts').doc(part.id);
         batch.update(partRef, {
           'stock': FieldValue.increment(-cartItem.quantity),
         });
